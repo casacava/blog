@@ -12,10 +12,13 @@ This is a basic blog application built with Ruby on Rails. It allows users to cr
 </ul>
 To run this app, you'll need:
 
-Ruby (version 3.0.0 or higher recommended)
-Rails (version 7.0.0 or higher recommended)
-SQLite3 (default database for development)
-Getting Started
+<ul>
+  <li>Ruby (version 3.0.0 or higher recommended)</li>
+  <li>Rails (version 7.0.0 or higher recommended)</li>
+  <li>SQLite3 (default database for development)</li>
+</ul>
+
+<h3>Getting Started</h3>
 Follow these steps to set up and run the blog app locally:
 
 Clone the repository:
@@ -45,8 +48,11 @@ rails server
 
 Open your browser and navigate to http://localhost:3000 to view the app.
 
-Usage
-Navigate to the homepage to view a list of all posts.
-Use the "New Post" button to create a new blog post.
-Click on a post title to view its details.
-Edit or delete posts using the buttons provided.
+<h3>Usage</h3>
+<ul>
+  <li>Navigate to the homepage to view a list of all posts. </li>
+  <li>Use the "New Post" button to create a new blog post. </li>
+  <li>Click on a post title to view its details. </li>
+  <li>Edit or delete posts using the buttons provided.</li>
+</ul>
+
