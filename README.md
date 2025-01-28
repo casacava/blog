@@ -1,24 +1,52 @@
-# README
+# Ruby on Rails Blog App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic blog application built with Ruby on Rails. It allows users to create, edit, view, and delete blog posts. The app is based on the official Ruby on Rails Getting Started Guide.
 
-Things you may want to cover:
+<h3>Features</h3>
 
-* Ruby version
+<ul>
+  <li>Create new blog posts with a title and content.</li>
+  <li>View a list of all blog posts.</li>
+  <li>Edit existing blog posts.</li>
+  <li>Delete blog posts.</li>
+</ul>
+To run this app, you'll need:
 
-* System dependencies
+Ruby (version 3.0.0 or higher recommended)
+Rails (version 7.0.0 or higher recommended)
+SQLite3 (default database for development)
+Getting Started
+Follow these steps to set up and run the blog app locally:
 
-* Configuration
+Clone the repository:
 
-* Database creation
+`
+git clone <repository_url>
+cd simple-blog-app
+`
 
-* Database initialization
+Install dependencies:
 
-* How to run the test suite
+`
+bundle install
+`
 
-* Services (job queues, cache servers, search engines, etc.)
+Set up the database:
 
-* Deployment instructions
+`
+rails db:migrate
+`
 
-* ...
+Run the server:
+
+`
+rails server
+`
+
+Open your browser and navigate to http://localhost:3000 to view the app.
+
+Usage
+Navigate to the homepage to view a list of all posts.
+Use the "New Post" button to create a new blog post.
+Click on a post title to view its details.
+Edit or delete posts using the buttons provided.
